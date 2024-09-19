@@ -1,0 +1,57 @@
+body {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7e9; /* Light green background */
+    color: #2e4600; /* Dark green text */
+}
+
+h1 {
+    font-size: 32px;
+    color: #2e4600; /* Dark green */
+    margin-bottom: 20px;
+}
+
+.task-input {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4b8b3b; /* Medium green */
+    margin-bottom: 10px;
+}
+
+li {
+    text-align: left;
+    background-color: #a2c523; /* Light green */
+    border: 1px solid #4b8b3b; /* Medium green */
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px; /* Rounded corners */
+}
+
+li span {
+    flex-grow: 1;
+    margin-right: 10px;
+    word-break: break-word; /* Ensure long words break to the next line */
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #4b8b3b; /* Medium green */
+    color: white;
+    border: none;
+    border-radius: 3px; /* Rounded corners */
+    transition: background-color 0.3s;
+    flex-shrink: 0; /* Prevent button from shrinking */
+}
+
+button:hover {
+    background-color: #2e4600; /* Dark green */
+}
